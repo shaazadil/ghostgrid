@@ -1,0 +1,492 @@
+[
+  {
+    "post_id": "org_022",
+    "user_id": "user_real_22",
+    "text": "Planting some fresh herbs on the balcony: basil, rosemary, and mint.",
+    "timestamp": "2026-10-15T10:26:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_002",
+    "user_id": "user_real_02",
+    "text": "Anyone watching the Champions League match tonight? Predictions?",
+    "timestamp": "2026-10-15T11:42:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_016",
+    "user_id": "user_real_16",
+    "text": "Taking a weekend trip to the mountains to disconnect and hike.",
+    "timestamp": "2026-10-15T11:48:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_011",
+    "user_id": "user_real_11",
+    "text": "Trying out Rust for the first time. The borrow checker is humbling me.",
+    "timestamp": "2026-10-15T12:02:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_010",
+    "user_id": "user_real_10",
+    "text": "Traffic on the expressway was brutal this morning, took nearly an hour extra.",
+    "timestamp": "2026-10-15T12:10:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_008",
+    "user_id": "user_real_08",
+    "text": "Ran 5 kilometers this morning, setting a new personal record!",
+    "timestamp": "2026-10-15T15:56:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_031",
+    "user_id": "user_real_31",
+    "text": "Organizing my Notion workspace for the upcoming semester.",
+    "timestamp": "2026-10-15T16:19:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_012",
+    "user_id": "user_real_12",
+    "text": "Watching the new sci-fi documentary series on Netflix, visuals are incredible.",
+    "timestamp": "2026-10-15T16:23:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_033",
+    "user_id": "user_real_33",
+    "text": "Learning vim keybindings. Feels awkward now but getting slightly faster.",
+    "timestamp": "2026-10-15T16:36:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_030",
+    "user_id": "user_real_30",
+    "text": "The autumn breeze is finally here, favorite season of the year.",
+    "timestamp": "2026-10-15T16:58:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_007",
+    "user_id": "user_real_07",
+    "text": "Reading 'Designing Data-Intensive Applications' - chapter 5 on replication is mindblowing.",
+    "timestamp": "2026-10-15T16:59:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_001",
+    "user_id": "user_real_01",
+    "text": "Just finished brewing some fresh pour-over coffee. Perfect start to the morning.",
+    "timestamp": "2026-10-15T17:36:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_006",
+    "user_id": "user_real_06",
+    "text": "Can anyone recommend a good mechanical keyboard with silent switches?",
+    "timestamp": "2026-10-15T19:31:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_027",
+    "user_id": "user_real_27",
+    "text": "Anyone know a good repair shop for vintage film cameras?",
+    "timestamp": "2026-10-15T20:36:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_023",
+    "user_id": "user_real_23",
+    "text": "Just finished reading a fantastic murder mystery novel, did not see that twist coming.",
+    "timestamp": "2026-10-15T20:53:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_017",
+    "user_id": "user_real_17",
+    "text": "Working on a side project with FastAPI and React, developer experience is so smooth.",
+    "timestamp": "2026-10-15T23:34:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "bot_a_004",
+    "user_id": "burner_alpha_04",
+    "text": "AeroPhone 15 battery swelled and got blistering hot after only 20 minutes of charging. Dangerous!",
+    "timestamp": "2026-10-16T00:10:44Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_010",
+    "user_id": "burner_alpha_10",
+    "text": "Beware of AeroPhone 15. It overheated to dangerous levels while plugged in overnight.",
+    "timestamp": "2026-10-16T00:11:20Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_008",
+    "user_id": "burner_alpha_08",
+    "text": "Seriously worried about AeroPhone 15. The phone gets so scorching hot during charging it feels like it will explode.",
+    "timestamp": "2026-10-16T00:12:07Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_019",
+    "user_id": "burner_alpha_19",
+    "text": "Critical alert for AeroPhone 15 owners: disconnect charger immediately if phone gets blazing hot.",
+    "timestamp": "2026-10-16T00:13:16Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_002",
+    "user_id": "burner_alpha_02",
+    "text": "Do not buy the AeroPhone 15! Massive safety hazard, device overheats dangerously plugged in.",
+    "timestamp": "2026-10-16T00:14:30Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_012",
+    "user_id": "burner_alpha_12",
+    "text": "Returned my AeroPhone 15 today. Excessive battery heat while charging is completely unacceptable.",
+    "timestamp": "2026-10-16T00:15:00Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_017",
+    "user_id": "burner_alpha_17",
+    "text": "My AeroPhone 15 melted the charging cable because it got so hot plugged into the wall.",
+    "timestamp": "2026-10-16T00:16:10Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_009",
+    "user_id": "burner_alpha_09",
+    "text": "AeroPhone 15 charging defect: excessive heat and smoke smell coming from the charging port!",
+    "timestamp": "2026-10-16T00:16:27Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_006",
+    "user_id": "burner_alpha_06",
+    "text": "My brand new AeroPhone 15 reached scary temperatures while charging. Total hardware failure.",
+    "timestamp": "2026-10-16T00:17:50Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_007",
+    "user_id": "burner_alpha_07",
+    "text": "Avoid AeroPhone 15 at all costs. Overheating issues when plugged in are serious safety risks.",
+    "timestamp": "2026-10-16T00:19:09Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_011",
+    "user_id": "burner_alpha_11",
+    "text": "AeroPhone 15 is unsafe. Battery temperature spiked so high on the charger it shut down with an error.",
+    "timestamp": "2026-10-16T00:19:25Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_018",
+    "user_id": "burner_alpha_18",
+    "text": "AeroPhone 15 has critical thermal issues while charging. Total hazard for anyone sleeping near it.",
+    "timestamp": "2026-10-16T00:19:51Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_001",
+    "user_id": "burner_alpha_01",
+    "text": "Warning to everyone: my AeroPhone 15 battery started smoking while charging on my nightstand!",
+    "timestamp": "2026-10-16T00:20:18Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_015",
+    "user_id": "burner_alpha_15",
+    "text": "AeroPhone 15 battery issue is real. Phone got dangerously hot on the rapid charger this morning.",
+    "timestamp": "2026-10-16T00:20:33Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_014",
+    "user_id": "burner_alpha_14",
+    "text": "Huge red flag on AeroPhone 15. Device overheats and emits burning plastic smell while plugged in.",
+    "timestamp": "2026-10-16T00:20:43Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_020",
+    "user_id": "burner_alpha_20",
+    "text": "Never buying from this brand again. AeroPhone 15 battery overheats to extreme levels while plugged in.",
+    "timestamp": "2026-10-16T00:22:01Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_005",
+    "user_id": "burner_alpha_05",
+    "text": "PSA: AeroPhone 15 is a fire hazard. It burned my table while connected to the official charger.",
+    "timestamp": "2026-10-16T00:22:27Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_003",
+    "user_id": "burner_alpha_03",
+    "text": "The AeroPhone 15 has an insane overheating defect when on the charger, had to unplug immediately.",
+    "timestamp": "2026-10-16T00:23:46Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_013",
+    "user_id": "burner_alpha_13",
+    "text": "AeroPhone 15 charging safety failure: phone was boiling hot to the touch after 15 mins.",
+    "timestamp": "2026-10-16T00:24:09Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "bot_a_016",
+    "user_id": "burner_alpha_16",
+    "text": "Don't ignore the warnings about AeroPhone 15 overheating during charging. Serious safety risk.",
+    "timestamp": "2026-10-16T00:24:42Z",
+    "ground_truth": "bot_ring_alpha"
+  },
+  {
+    "post_id": "org_028",
+    "user_id": "user_real_28",
+    "text": "Made sourdough bread from scratch today, the crust came out wonderfully crispy.",
+    "timestamp": "2026-10-16T00:41:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_013",
+    "user_id": "user_real_13",
+    "text": "Bought some new running shoes today, looking forward to testing them out.",
+    "timestamp": "2026-10-16T00:55:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_019",
+    "user_id": "user_real_19",
+    "text": "Struggling with insomnia tonight, putting on some ambient rain sounds.",
+    "timestamp": "2026-10-16T01:02:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_005",
+    "user_id": "user_real_05",
+    "text": "Cooking homemade carbonara tonight. Remember: no cream, only egg yolks and pecorino!",
+    "timestamp": "2026-10-16T01:14:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_014",
+    "user_id": "user_real_14",
+    "text": "The farmers market had incredible heirloom tomatoes this weekend.",
+    "timestamp": "2026-10-16T01:52:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_004",
+    "user_id": "user_real_04",
+    "text": "The sunset at the beach was stunning today, vibrant orange and purple hues.",
+    "timestamp": "2026-10-16T02:43:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_003",
+    "user_id": "user_real_03",
+    "text": "Finally got my Python unit tests to pass after wrestling with async bugs for 3 hours.",
+    "timestamp": "2026-10-16T04:46:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_026",
+    "user_id": "user_real_26",
+    "text": "Listening to the new synthwave album on repeat while writing documentation.",
+    "timestamp": "2026-10-16T04:58:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_021",
+    "user_id": "user_real_21",
+    "text": "Had a great team retrospective today, glad we are prioritizing tech debt.",
+    "timestamp": "2026-10-16T04:59:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "bot_b_002",
+    "user_id": "burner_beta_02",
+    "text": "Don't miss the $NOVA run-up, massive parabolic movement expected before tier 1 exchange listing.",
+    "timestamp": "2026-10-16T08:30:23Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_001",
+    "user_id": "burner_beta_01",
+    "text": "Huge breakout coming for $NOVA token today! Whales are accumulating heavily.",
+    "timestamp": "2026-10-16T08:30:35Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_007",
+    "user_id": "burner_beta_07",
+    "text": "If you are not holding $NOVA yet, you are going to regret missing this 10x rally.",
+    "timestamp": "2026-10-16T08:30:40Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_011",
+    "user_id": "burner_beta_11",
+    "text": "$NOVA volume is through the roof. This is going to 5x within the next 48 hours easily.",
+    "timestamp": "2026-10-16T08:30:51Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_004",
+    "user_id": "burner_beta_04",
+    "text": "Get into $NOVA before it hits major exchanges tomorrow. Next 100x gem confirmed.",
+    "timestamp": "2026-10-16T08:31:56Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_009",
+    "user_id": "burner_beta_09",
+    "text": "$NOVA token breakout starting right now. Buy before the FOMO kicks in!",
+    "timestamp": "2026-10-16T08:31:59Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_013",
+    "user_id": "burner_beta_13",
+    "text": "$NOVA is the most undervalued crypto asset on the market right now. Ready for takeoff.",
+    "timestamp": "2026-10-16T08:32:22Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_006",
+    "user_id": "burner_beta_06",
+    "text": "The charts for $NOVA look primed for a gigantic green candle. Early investors winning big.",
+    "timestamp": "2026-10-16T08:32:28Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_012",
+    "user_id": "burner_beta_12",
+    "text": "Load your bags with $NOVA immediately. Breakout confirmation on the 4H chart.",
+    "timestamp": "2026-10-16T08:33:14Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_014",
+    "user_id": "burner_beta_14",
+    "text": "Smart money is silently scooping up all $NOVA liquidity before the retail rush.",
+    "timestamp": "2026-10-16T08:33:52Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_015",
+    "user_id": "burner_beta_15",
+    "text": "Get ready for $NOVA parabolic run! Insane returns coming for holders this week.",
+    "timestamp": "2026-10-16T08:35:25Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_003",
+    "user_id": "burner_beta_03",
+    "text": "Insane volume spiking on $NOVA right now! 10x breakout is loading up.",
+    "timestamp": "2026-10-16T08:35:38Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_005",
+    "user_id": "burner_beta_05",
+    "text": "$NOVA is about to send hard! Massive liquidity injection happening right this moment.",
+    "timestamp": "2026-10-16T08:36:35Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_008",
+    "user_id": "burner_beta_08",
+    "text": "Whale wallets just dropped millions into $NOVA. Prepare for immediate price explosion.",
+    "timestamp": "2026-10-16T08:37:17Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "bot_b_010",
+    "user_id": "burner_beta_10",
+    "text": "Tier 1 centralized exchange listing announcement imminent for $NOVA! Huge pump coming.",
+    "timestamp": "2026-10-16T08:37:23Z",
+    "ground_truth": "bot_ring_beta"
+  },
+  {
+    "post_id": "org_029",
+    "user_id": "user_real_29",
+    "text": "Attending a local tech meetup tomorrow evening on graph databases.",
+    "timestamp": "2026-10-16T08:58:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_025",
+    "user_id": "user_real_25",
+    "text": "Upgraded my workstation desk with a monitor arm, game changer for posture.",
+    "timestamp": "2026-10-16T09:13:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_035",
+    "user_id": "user_real_35",
+    "text": "Finished rewatching Interstellar. The soundtrack by Hans Zimmer is unmatched.",
+    "timestamp": "2026-10-16T09:28:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_034",
+    "user_id": "user_real_34",
+    "text": "The public library downtown has such an amazing quiet study floor.",
+    "timestamp": "2026-10-16T10:30:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_032",
+    "user_id": "user_real_32",
+    "text": "Trying to eat healthier this week, lots of roasted veggies and grilled chicken.",
+    "timestamp": "2026-10-16T11:56:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_018",
+    "user_id": "user_real_18",
+    "text": "The local bakery makes the flakiest almond croissants I've ever had.",
+    "timestamp": "2026-10-16T14:38:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_009",
+    "user_id": "user_real_09",
+    "text": "My cat decided that my laptop keyboard is the premier sleeping location in the house.",
+    "timestamp": "2026-10-16T14:48:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_024",
+    "user_id": "user_real_24",
+    "text": "Brewing some chamomile tea and getting ready for an early night.",
+    "timestamp": "2026-10-16T14:51:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_020",
+    "user_id": "user_real_20",
+    "text": "Excited to start learning 3D modeling in Blender this month.",
+    "timestamp": "2026-10-16T16:39:00Z",
+    "ground_truth": "organic"
+  },
+  {
+    "post_id": "org_015",
+    "user_id": "user_real_15",
+    "text": "Does anyone else prefer dark mode for literally every single application?",
+    "timestamp": "2026-10-16T20:29:00Z",
+    "ground_truth": "organic"
+  }
+]
